@@ -606,7 +606,6 @@ int ad_mod_delete(char *dn, char *attribute, char *value) {
 	returns NULL if no values are found */
 char **ad_get_attribute(char *dn, char *attribute) {
 	LDAP *ds;
-	//char **values;
 	struct berval **values;
 	int result;
 	char *attrs[2];

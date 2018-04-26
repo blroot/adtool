@@ -21,8 +21,6 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <string.h>
-
-//BL
 #include <lber.h>
 
 void usage() {
@@ -375,7 +373,6 @@ void attributeget(char **argv) {
 	char *object;
 	char *attribute;
         int i;
-        //char **dn, **values;
         char **dn;
 	struct berval **values;
 
